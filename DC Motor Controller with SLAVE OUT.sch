@@ -6135,6 +6135,49 @@ Metric Code Size 5664</description>
 <rectangle x1="-2.8" y1="-3.15" x2="-2.2" y2="3.15" layer="51"/>
 <rectangle x1="2.2" y1="-3.15" x2="2.8" y2="3.15" layer="51"/>
 </package>
+<package name="1X03" library_version="1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+<package name="1X03-CLEANBIG" library_version="1">
+<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
 <package name="CT3216" library_version="1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip
@@ -10334,6 +10377,17 @@ diameter 5 mm, grid 2.54 mm</description>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
+<symbol name="PINHD3" library_version="1">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
 <symbol name="CPOL-US" library_version="1">
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
@@ -11024,6 +11078,34 @@ diameter 5 mm, grid 2.54 mm</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X3" prefix="JP" uservalue="yes" library_version="1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CB" package="1X03-CLEANBIG">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12391,13 +12473,13 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.1524" drill="0.3048">
-<clearance class="0" value="0.1524"/>
+<clearance class="0" value="0.254"/>
 </class>
-<class number="1" name="GND" width="0.1524" drill="0.3048">
-<clearance class="1" value="0.1524"/>
+<class number="1" name="GND" width="0.3048" drill="0.3048">
+<clearance class="1" value="0.254"/>
 </class>
 <class number="2" name="PWR" width="0.3048" drill="0.3048">
-<clearance class="2" value="0.2032"/>
+<clearance class="2" value="0.254"/>
 </class>
 </classes>
 <parts>
@@ -12419,13 +12501,13 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 <part name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value=".1uf"/>
 <part name="C13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value=".1uf"/>
 <part name="GND3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="GND6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="M-OUT" library="my-custom-lib" deviceset="7-5MM-SCREW-TERM" device="" value="TERMINAL BLOCK 7.50MM VERT 2POS, ED110/2DS"/>
 <part name="PWR" library="my-custom-lib" deviceset="7-5MM-SCREW-TERM" device="" value="TERMINAL BLOCK 7.50MM VERT 2POS, ED110/2DS"/>
-<part name="GND4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="INPUT" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev16e" library_urn="urn:adsk.eagle:library:444" deviceset="691244510004" device="" value="5.08MM Screw Terminal, 4-POS, Wurth Elektronik PN# 691244510004"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="10K"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="10K"/>
@@ -12448,7 +12530,9 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 <part name="GND16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="CPOL-US" device="TT5D10" value="1000uf"/>
+<part name="SLAVE" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="CB"/>
+<part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="CPOL-US" device="TT5D10" value="470uf"/>
+<part name="GND4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SMB" value="39v"/>
 </parts>
 <sheets>
@@ -12464,31 +12548,31 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 <attribute name="NAME" x="-62.23" y="19.05" size="1.778" layer="95"/>
 </instance>
 <instance part="GND" gate="GND" x="-58.42" y="48.26" rot="R180"/>
-<instance part="P+1" gate="1" x="-38.1" y="25.4" rot="R270"/>
+<instance part="P+1" gate="1" x="-33.02" y="25.4" rot="R270"/>
 <instance part="R1" gate="G$1" x="-58.42" y="40.64" rot="R90"/>
 <instance part="GND1" gate="GND" x="-73.66" y="20.32"/>
-<instance part="P+2" gate="1" x="33.02" y="48.26" rot="R270"/>
-<instance part="P+3" gate="1" x="104.14" y="48.26" rot="R270"/>
+<instance part="P+2" gate="1" x="25.4" y="48.26" rot="R270"/>
+<instance part="P+3" gate="1" x="93.98" y="48.26" rot="R270"/>
 <instance part="C1" gate="G$1" x="-68.58" y="35.56" rot="R180"/>
 <instance part="GND2" gate="GND" x="-68.58" y="43.18" rot="R180"/>
 <instance part="C3" gate="G$1" x="-58.42" y="0" rot="R180"/>
 <instance part="C4" gate="G$1" x="-43.18" y="2.54"/>
 <instance part="C8" gate="G$1" x="-58.42" y="-7.62"/>
 <instance part="C9" gate="G$1" x="-43.18" y="-10.16" rot="R180"/>
-<instance part="C12" gate="G$1" x="17.78" y="45.72"/>
-<instance part="C13" gate="G$1" x="93.98" y="45.72"/>
-<instance part="GND3" gate="GND" x="17.78" y="38.1"/>
+<instance part="C12" gate="G$1" x="15.24" y="45.72"/>
+<instance part="C13" gate="G$1" x="86.36" y="45.72"/>
+<instance part="GND3" gate="GND" x="15.24" y="38.1"/>
+<instance part="GND6" gate="GND" x="86.36" y="38.1"/>
 <instance part="GND9" gate="GND" x="-58.42" y="-15.24"/>
 <instance part="GND10" gate="GND" x="-58.42" y="7.62" rot="R180"/>
 <instance part="P+6" gate="1" x="-43.18" y="7.62"/>
 <instance part="P+7" gate="1" x="-43.18" y="-15.24" rot="R180"/>
 <instance part="M-OUT" gate="G$1" x="-81.28" y="-5.08" rot="R180"/>
 <instance part="PWR" gate="G$1" x="-81.28" y="25.4" rot="MR0"/>
-<instance part="GND4" gate="GND" x="-43.18" y="15.24"/>
 <instance part="INPUT" gate="G$1" x="-83.82" y="66.04" rot="R180"/>
-<instance part="R3" gate="G$1" x="-71.12" y="60.96" rot="R180"/>
+<instance part="R3" gate="G$1" x="-63.5" y="60.96" rot="R180"/>
 <instance part="R4" gate="G$1" x="-71.12" y="76.2" rot="R180"/>
-<instance part="R5" gate="G$1" x="-71.12" y="68.58" rot="R180"/>
+<instance part="R5" gate="G$1" x="-63.5" y="68.58" rot="R180"/>
 <instance part="GND5" gate="GND" x="12.7" y="53.34" rot="R90"/>
 <instance part="GND7" gate="GND" x="83.82" y="53.34" rot="R90"/>
 <instance part="R6" gate="G$1" x="15.24" y="63.5" rot="R270"/>
@@ -12507,7 +12591,9 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 <instance part="GND16" gate="GND" x="53.34" y="30.48"/>
 <instance part="GND17" gate="GND" x="-27.94" y="33.02"/>
 <instance part="GND18" gate="GND" x="-17.78" y="30.48"/>
-<instance part="C11" gate="G$1" x="-43.18" y="22.86"/>
+<instance part="SLAVE" gate="A" x="-10.16" y="0"/>
+<instance part="C2" gate="G$1" x="-40.64" y="22.86"/>
+<instance part="GND4" gate="GND" x="-40.64" y="15.24"/>
 <instance part="D2" gate="G$1" x="-50.8" y="33.02" rot="R270"/>
 </instances>
 <busses>
@@ -12565,30 +12651,30 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="P+1" gate="1" pin="V+"/>
-<wire x1="-40.64" y1="25.4" x2="-43.18" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="25.4" x2="-50.8" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="25.4" x2="-40.64" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="25.4" x2="-50.8" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="25.4" x2="-55.88" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="25.4" x2="-50.8" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-50.8" y="25.4"/>
-<pinref part="C11" gate="G$1" pin="+"/>
-<junction x="-43.18" y="25.4"/>
+<pinref part="C2" gate="G$1" pin="+"/>
+<junction x="-40.64" y="25.4"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VS"/>
 <pinref part="P+2" gate="1" pin="V+"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="48.26" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
-<junction x="17.78" y="48.26"/>
+<wire x1="22.86" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="48.26" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
+<junction x="15.24" y="48.26"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VS"/>
 <pinref part="P+3" gate="1" pin="V+"/>
-<wire x1="101.6" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="48.26" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<junction x="93.98" y="48.26"/>
+<wire x1="86.36" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
+<junction x="86.36" y="48.26"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -12621,6 +12707,10 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="GND6" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -12676,16 +12766,23 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 <pinref part="GND18" gate="GND" pin="GND"/>
 </segment>
 <segment>
+<pinref part="C2" gate="G$1" pin="-"/>
 <pinref part="GND4" gate="GND" pin="GND"/>
-<pinref part="C11" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="INH_PIN" class="0">
 <segment>
 <pinref part="INPUT" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-68.58" y1="60.96" x2="-76.2" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="60.96" x2="-76.2" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="63.5" x2="-78.74" y2="63.5" width="0.1524" layer="91"/>
+<label x="-76.2" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-12.7" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
+<label x="-27.94" y="2.54" size="1.778" layer="95"/>
+<pinref part="SLAVE" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="IN1_PIN" class="0">
@@ -12694,14 +12791,27 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="76.2" x2="-78.74" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="76.2" x2="-78.74" y2="68.58" width="0.1524" layer="91"/>
+<label x="-78.74" y="71.12" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="-27.94" y1="-2.54" x2="-12.7" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-27.94" y="-2.54" size="1.778" layer="95"/>
+<pinref part="SLAVE" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="IN2_PIN" class="0">
 <segment>
 <pinref part="INPUT" gate="G$1" pin="3"/>
 <pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="-68.58" y1="68.58" x2="-76.2" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="68.58" x2="-76.2" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="66.04" x2="-78.74" y2="66.04" width="0.1524" layer="91"/>
+<label x="-76.2" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-12.7" y1="0" x2="-27.94" y2="0" width="0.1524" layer="91"/>
+<label x="-27.94" y="0" size="1.778" layer="95"/>
+<pinref part="SLAVE" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="IS" class="0">
@@ -12769,9 +12879,9 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 <label x="48.26" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-60.96" y1="60.96" x2="-66.04" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="60.96" x2="-58.42" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<label x="-66.04" y="60.96" size="1.778" layer="95"/>
+<label x="-55.88" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN1" class="0">
@@ -12793,17 +12903,20 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/TBL_5_08_2445_HORIZON
 <label x="48.26" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-66.04" y1="68.58" x2="-60.96" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="68.58" x2="-50.8" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<label x="-66.04" y="68.58" size="1.778" layer="95"/>
+<label x="-55.88" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,10.16,48.26,IC1,VS,V+,,,"/>
+<approved hash="104,1,81.28,48.26,IC2,VS,V+,,,"/>
 <approved hash="206,1,10.16,58.42,IS,,,,,"/>
 <approved hash="206,1,81.28,58.42,IS,,,,,"/>
+<approved hash="113,1,-12.4629,1.40123,SLAVE,,,,,"/>
 </errors>
 </schematic>
 </drawing>
