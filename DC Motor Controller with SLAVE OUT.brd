@@ -1933,7 +1933,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="58.4962" y="12.573" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="62.357" y="18.288" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TT5D10" value="470uf" x="64.0588" y="39.6494" smashed="yes">
+<element name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TT5D10" value="1000uf" x="64.0588" y="39.6494" smashed="yes">
 <attribute name="NAME" x="63.5" y="45.0342" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="70.3072" y="38.2016" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
